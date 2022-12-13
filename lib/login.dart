@@ -19,17 +19,21 @@ import 'package:flutter/material.dart';
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [                    
                       Text("Selamat Datang",
-                       style:TextStyle(fontSize: 30, fontWeight: FontWeight.w700),),
+                       style:TextStyle(fontSize: 30, fontWeight: FontWeight.w700,
+                       color: Colors.white),),
                        SizedBox(height: 10),
-                      Text("Login Sekarang Untuk Melanjutkan", 
-                      style: TextStyle(fontSize: 12),),
+                      Text("Login Sekarang Untuk Melanjutkan",  
+                      style: TextStyle(fontSize: 14,
+                      color: Colors.white),
+                      ),
                       SizedBox(height: 64,),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text("Login", 
                           style: TextStyle(
-                            fontSize: 15, fontWeight: FontWeight.w700)
+                            fontSize: 15, fontWeight: FontWeight.w700,
+                            color: Colors.white)
                             ),
                             SizedBox(height: 10,),
                             Container(

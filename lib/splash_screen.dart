@@ -9,7 +9,7 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
+     
     return MaterialApp(
       debugShowCheckedModeBanner: false,
     home: Scaffold(
@@ -19,7 +19,7 @@ class SplashScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           const SizedBox(
-            height: 60,
+            height: 90,
           ),
         
           const Text(
@@ -32,14 +32,14 @@ class SplashScreen extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
           const SizedBox(
-            height: 25,
+            height: 8,
           ),
           const Text(
             "Penerimaan Praktik Kerja Lapangan",
             style: TextStyle(
-              fontSize: 20,
+              fontSize:18,
               color : Colors.white,
-              fontWeight: FontWeight.w500,
+              fontWeight: FontWeight.w300,
             ),
             textAlign: TextAlign.center,
           ),
@@ -72,7 +72,7 @@ class SplashScreen extends StatelessWidget {
                   ),
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.only(
-                        topRight: Radius.circular(25),
+                        topRight: Radius.circular(20),
                       ),
                       color: Colors.white,
                     ),
@@ -93,4 +93,4 @@ class SplashScreen extends StatelessWidget {
     ),
     );
   }
-} 
+}  
